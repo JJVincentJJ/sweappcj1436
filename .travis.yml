@@ -22,7 +22,7 @@ matrix:
     - name: "black"
       python: 3.7
       env:
-        - TEST_CMD="black --check --exclude migrations ."
+        - TEST_CMD="black ."
     - name: "flake8"
       python: 3.7
       env:
